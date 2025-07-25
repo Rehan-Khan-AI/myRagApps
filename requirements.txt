@@ -1,0 +1,9 @@
+streamlit
+pandas
+openai
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+pymupdf
+faiss-cpu
