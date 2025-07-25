@@ -50,7 +50,7 @@ if uploaded_file:
     retriever = db.as_retriever()
 
     # ✅ Mistral LLM via OpenRouter
-    api_key = st.secrets["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"]  # Add your OpenRouter key to .streamlit/secrets.toml
+    api_key = st.secrets["OPENROUTER_API_KEY"]  # Add your OpenRouter key to .streamlit/secrets.toml
     os.environ["OPENAI_API_KEY"] = api_key
     os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
 
